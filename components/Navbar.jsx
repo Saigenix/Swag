@@ -25,9 +25,9 @@ const Navbar = () => {
   <div className={`${styles.innerWidth} mx-auto flex justify-between
   gap-8 `}>
   <img
-    src="./search.svg"
+    src="./logo.png"
     alt="search"
-    className="w-[24px] h-[24px] object-contain hover:cursor-pointer"
+    className="w-[44px] h-[44px] object-contain hover:cursor-pointer"
   />
   <h2 className="font-extrabold text-[24px] leading-[30px]
   text-white hover:cursor-pointer">

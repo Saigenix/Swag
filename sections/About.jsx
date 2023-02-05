@@ -11,11 +11,11 @@ const About = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
-        title="| Where Ideas turns into Reality"
+        title="| Here Ideas turns into Reality"
         textStyles="text-center text-[25px]"
       />
       <motion.p
@@ -23,7 +23,7 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] 
     text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Lorem ipsum, </span>
+        <span className="font-extrabold text-white">Official, </span>
         dolor sit amet consectetur adipisicing elit. Assumenda e os esse quod,
         nisi dolores ea magnam doloremque obcaecati laudantium eveniet et quidem
         illum ut, fuga neque unde suscipit, labore deleniti? Suscipit dolores

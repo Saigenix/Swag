@@ -12,6 +12,7 @@ const Footer = () => (
     initial="hidden"
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
+    viewport={{once:true}}
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
