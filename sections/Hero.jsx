@@ -39,7 +39,7 @@ const Hero = () => (
       >
         <div 
         className="absolute w-full h-[300px] hero-gradient 
-        rounded-tl-[140px] z-[0]  -top-[30px] "/>
+        rounded-tl-[140px] rounded-bl-[140px] z-[0]  -top-[30px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] "/>
           <img
             src='cover.jpg'
             alt="cover"
