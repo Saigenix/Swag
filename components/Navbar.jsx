@@ -27,7 +27,7 @@ const Navbar = () => {
   <img
     src="./logo.png"
     alt="search"
-    className="w-[44px] h-[44px] object-contain hover:cursor-pointer"
+    className="w-[49px] h-[49px] object-contain hover:cursor-pointer"
   />
   <h2 className="font-extrabold text-[24px] leading-[30px]
   text-white hover:cursor-pointer">

@@ -22,7 +22,7 @@ const Hero = () => (
   z-10"
       >
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          SWAG 
+        Official Developer's
         </motion.h1>
         </div>
         <motion.div
@@ -30,7 +30,7 @@ const Hero = () => (
           className="flex flex-row justify-center items-center z-20"
         >
           <h1 className={`${styles.heroHeading}`}>
-          DEV CLUB
+          Club Of SGGSIE&IT
           </h1>
         </motion.div>
       <motion.div
@@ -55,7 +55,7 @@ const Hero = () => (
         <img
           src="/stamp.png"
           alt="stamp"
-          className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px]
+          className="sm:w-[155px] w-[150px] sm:h-[155px] h-[150px]
           object-contain"
         />
         </div>

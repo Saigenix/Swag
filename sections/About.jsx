@@ -23,11 +23,8 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] 
     text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Official, </span>
-        dolor sit amet consectetur adipisicing elit. Assumenda e os esse quod,
-        nisi dolores ea magnam doloremque obcaecati laudantium eveniet et quidem
-        illum ut, fuga neque unde suscipit, labore deleniti? Suscipit dolores
-        perferendis reiciendis!
+        <span className="font-extrabold text-white">We </span>
+        think it necessary to offer students the option to study and build projects together. SWAG stands for SGGS Web App Game developers Club. This club will provide a proper environment for development.
       </motion.p>
       <motion.img
         variants={fadeIn("up","tween",0.3,1)}

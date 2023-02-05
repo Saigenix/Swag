@@ -17,44 +17,44 @@ export const data = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  '🔸Build fun projects with all local partners, from our college and elsewhere.',
+  '🔸 Host and participate in hands-on workshops and gain valuable experiences and knowledge.',
+  '🔸 Turn your Ideas into Reality , and Explore new Things.',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Grow Together',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        '🔹Build a community of people who have the same goals as students so students can grow together.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Expand Network',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        '🔹Expand students network internationally to student leaders, professional community organizers, industry experts, and Googlers to gain mentorship and share.',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/in1.jpg',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'Results of the Swag entrance Exams Are Out Now!',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Check Your collage Mail.',
   },
   {
     imgUrl: '/in2.jpg',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Seminar On importance of development will be held soon!',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'details will be available Soon',
   },
   {
     imgUrl: '/in3.jpg',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'People Interested In the club can contact us via email.',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Email id: swag@sggs.ac.in',
   },
 ];
 
@@ -62,17 +62,21 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    u:"https://swag-app.vercel.app/"
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    u:"https://www.linkedin.com/company/swag-developer-s-club/"
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    u:"https://www.instagram.com/sggs_swag"
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    u:"https://swag-app.vercel.app/"
   },
 ];

@@ -36,7 +36,7 @@ const GetStarted = () => (
   <TypingText title="| What is Swag?"
     textStyles="text-[25px]"
   />
-  <TitleText title={<>Start Your Dev journey Now!</>}/>
+  <TitleText title={<>This is what the club aims to achieve :</>}/>
   <div
   className="mt-[31px] flex flex-col max-w-[370px] 
   gap-[24px]"
