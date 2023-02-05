@@ -19,7 +19,7 @@ export const data = [
 export const startingFeatures = [
   '🔸Build fun projects with all local partners, from our college and elsewhere.',
   '🔸 Host and participate in hands-on workshops and gain valuable experiences and knowledge.',
-  '🔸 Turn your Ideas into Reality , and Explore new Things.',
+  '🔸 Turn your Ideas into Reality and Explore new Things.',
 ];
 
 export const newFeatures = [
