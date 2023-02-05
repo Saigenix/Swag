@@ -30,7 +30,7 @@ const Hero = () => (
           className="flex flex-row justify-center items-center z-20"
         >
           <h1 className={`${styles.heroHeading}`}>
-          Club Of SGGSIE&IT
+          Club Of SGGSIE&T
           </h1>
         </motion.div>
       <motion.div
