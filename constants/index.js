@@ -77,6 +77,6 @@ export const socials = [
   {
     name: 'facebook',
     url: '/facebook.svg',
-    u:"https://swag-app.vercel.app/"
+    u:"https://www.youtube.com/@swagdevelopersclub/featured?app=desktop"
   },
 ];

@@ -27,21 +27,20 @@ const Navbar = () => {
   <img
     src="./logo.png"
     alt="search"
-    className="w-[49px] h-[49px] object-contain hover:cursor-pointer"
+    className=" sm:w-[75px] w-[60px] sm:h-[75px] h-[60px] object-contain hover:cursor-pointer"
   />
-  <h2 className="font-extrabold text-[24px] leading-[30px]
-  text-white hover:cursor-pointer">
-    SWAG
+  <h2 className="font-extrabold md:text-[40px] lg:text-[55px]  text-[30px] leading-[25px]
+  text-white hover:cursor-pointer mt-[20px]">SWAG
   </h2>
   <img
     src="./menu.svg"
     alt="menu"
-    className="w-[24px] h-[24px] object-contain hover:cursor-pointer"
+    className="sm:w-[40px] w-[30px] sm:h-[40px] h-[30px] object-contain hover:cursor-pointer mt-[20px]"
     onClick={() => setModelOpen(!modelOpen) }
   />
   </div>
   </motion.nav>
-  {modelOpen && <Model options={["Join Now","Know More","ContactUs"]} />}
+  {modelOpen && <Model />}
   </>)
 };
 
