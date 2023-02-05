@@ -21,12 +21,12 @@ const Hero = () => (
         className="flex justify-center items-center relative
   z-10"
       >
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+        <motion.h1 variants={textVariant(0)} className={styles.heroHeading}>
         Official Developer's
         </motion.h1>
         </div>
         <motion.div
-          variants={textVariant(1.2)}
+          variants={textVariant(0.2)}
           className="flex flex-row justify-center items-center z-20"
         >
           <h1 className={`${styles.heroHeading}`}>
@@ -34,7 +34,7 @@ const Hero = () => (
           </h1>
         </motion.div>
       <motion.div
-      variants={slideIn("right","tween",0.2,1)}
+      variants={slideIn("right","tween",0,1)}
       className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div 
