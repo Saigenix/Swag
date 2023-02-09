@@ -29,8 +29,7 @@ const Feedback = () => (
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, Development is very
-          useful for today's work. by joining this club you can create new Awesome things”
+        "We are proud to be a part of this dynamic and dedicated community of technology enthusiasts. We are excited to learn, grow and make a positive impact in the world through technology. Let's work together."
         </p>
       </motion.div>
 

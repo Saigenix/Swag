@@ -20,7 +20,12 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Join The SWAG
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+        onClick={()=>{
+          console.log("clicked")
+          window.open("https://forms.gle/FrXJksyNfpd5WiMNA");
+          }}
+        >
           <img
             src="/headset.svg"
             alt="headset"

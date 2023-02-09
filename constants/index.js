@@ -2,17 +2,17 @@ export const data = [
   {
     id: 'web',
     imgUrl: '/web.jpg',
-    title: 'Learn Web',
+    title: 'Learn Web Development',
   },
   {
     id: 'game',
     imgUrl: '/game.jpg',
-    title: 'Learn Game',
+    title: 'Learn Game Development',
   },
   {
     id: 'app',
     imgUrl: '/app.jpg',
-    title: 'Learn App',
+    title: 'Learn App Development',
   }
 ];
 

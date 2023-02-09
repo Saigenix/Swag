@@ -26,6 +26,10 @@ const Explore = () => {
       <TitleText title={<>Choose You're Favorite  <br 
         className="md:block hidden"
       /> Career Path</>} textStyles="text-center"/>
+      <TypingText
+        title="* Click On Card To Learn More"
+        textStyles="text-center text-[15px]"
+      />
       <div
       className="mt-[50px] flex lg:flex-row flex-col
       min-h-[70vh] gap-5">

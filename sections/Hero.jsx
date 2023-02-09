@@ -12,22 +12,33 @@ const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
       variants={staggerContainer}
-      initial="hidden"
+      initial={"hidden"}
       whileInView="show"
-      viewport={{ once: true, amount: 0.35 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col `}
+      // initial={{ opacity: 0,y:-50 }}
+      // animate={{ opacity: 1,y:0 }}
+      // viewport={{ once: true, amount: 0.35 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div
         className="flex justify-center items-center relative
-  z-10"
+  z-10 my-0"
       >
-        <motion.h1 variants={textVariant(0)} className={styles.heroHeading}>
+        <motion.h1 
+        variants={textVariant(0)} 
+  //       initial={{ opacity: 0,x:80 }}
+  //       animate={{ opacity: 1,x:0 }}
+  //       transition={{type: "spring",
+  // damping: 10,
+  // stiffness: 100,
+  // duration: 1.5
+  // }}
+        className={styles.heroHeading}>
         Official Developer's
         </motion.h1>
         </div>
         <motion.div
           variants={textVariant(0.2)}
-          className="flex flex-row justify-center items-center z-20"
+          className="flex flex-row justify-center items-center z-20 lg:mt-[-40px]"
         >
           <h1 className={`${styles.heroHeading}`}>
           Club Of SGGSIE&T
