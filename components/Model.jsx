@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import styles from "../styles"
 import { fadeIn, staggerContainer } from "../utils/motion"
+import Link from "next/link"
 const Model = () =>(
 
 <motion.div
@@ -16,38 +17,38 @@ className={`lg:ml-[85%] ml-[65%] mt-[-40px]
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
     >
     
-    <a className="text-white font-medium p-[10px] px-5 cursor-pointer" >
+    <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer" >
     Projects
-    </a>
+    </Link>
     </div>
     <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
-    <a
+    <Link href="/Events"
     className="text-white font-medium p-[10px] px-5 cursor-pointer"
     >
     Events
-    </a></div>
+    </Link></div>
     <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
-    <a
+    <Link href="/AboutUs"
     className="text-white font-medium p-[10px] px-5 cursor-pointer"
     >
     About
-    </a>
+    </Link>
     </div>
     <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
-    <a
+    <Link href="/ContactUs"
     className="text-white font-medium p-[10px] px-5 cursor-pointer"
     >
     ContactUs
-    </a>
+    </Link>
     </div>
 </motion.div>
 )
