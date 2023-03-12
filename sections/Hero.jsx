@@ -46,6 +46,7 @@ const Hero = () => (
         </motion.div>
       <motion.div
       variants={slideIn("right","tween",0,1)}
+      viewport={{once:true}}
       className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div 

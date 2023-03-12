@@ -55,15 +55,8 @@ className={`
    rounded-[10px] lg:flex flex-row z-30 p-2 hidden items-center`}
 >
 {/* options={["Projects","Events","About","ContactUs"]} */}
-    <div
-    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
-   rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
-    >
-    <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer">
-    Projects
-    </Link>
-    </div>
-    <div
+   
+<div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
@@ -73,6 +66,15 @@ className={`
     WebVerse
     </Link>
     </div>
+    <div
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
+   rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
+    >
+    <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer">
+    Projects
+    </Link>
+    </div>
+   
     <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
