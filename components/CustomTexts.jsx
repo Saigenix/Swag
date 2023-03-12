@@ -6,7 +6,7 @@ import { textContainer,textVariant2 } from "../utils/motion";
 export const TypingText = ({title,textStyles}) => (
   <motion.p
   variants={textContainer}
-  initial="show"
+  initial="hidden"
   whileInView="show"
   className={`font-normal text-[14px] text-secondary-white ${textStyles}`}
   >

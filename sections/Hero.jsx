@@ -11,12 +11,12 @@ import {
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
-      variants={staggerContainer}
+      // variants={staggerContainer}
       initial={"hidden"}
       whileInView="show"
       // initial={{ opacity: 0,y:-50 }}
       // animate={{ opacity: 1,y:0 }}
-      // viewport={{ once: true, amount: 0.35 }}
+      viewport={{ once: true, amount: 0.35 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div

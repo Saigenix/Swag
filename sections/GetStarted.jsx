@@ -11,7 +11,7 @@ const GetStarted = () => (
   className={`${styles.paddings} relative z-10`}
   >
   <motion.div
-  variants={staggerContainer}
+  // variants={staggerContainer}
   initial="hidden"
   whileInView="show"
   viewport={{once:true,amount:0.25}}

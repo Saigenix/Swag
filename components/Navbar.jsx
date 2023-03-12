@@ -50,7 +50,7 @@ const Navbar = () => {
   <motion.div
     initial={{ opacity: 0, scale: 1, y:-100 }}
     animate={{ opacity: 1, scale: 1 ,y:0}}
-    transition={{ duration: 0.5 }}
+    transition={{ duration: 0.5,delay:0.5 }}
 className={`
    rounded-[10px] lg:flex flex-row z-30 p-2 hidden items-center`}
 >

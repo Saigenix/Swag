@@ -8,9 +8,9 @@ const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <div className="gradient-02 z-0" />
     <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
+      // variants={staggerContainer}
+      // initial="hidden"
+      // whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
