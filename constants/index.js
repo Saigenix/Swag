@@ -2,17 +2,17 @@ export const data = [
   {
     id: 'web',
     imgUrl: '/web.jpg',
-    title: 'Learn Web Development',
+    title: 'Go To Roadmap',
   },
   {
     id: 'game',
     imgUrl: '/game.jpg',
-    title: 'Learn Game Development',
+    title: 'Go To Roadmap',
   },
   {
     id: 'app',
     imgUrl: '/app.jpg',
-    title: 'Learn App Development',
+    title: 'Go To Roadmap',
   }
 ];
 
@@ -60,8 +60,8 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'github',
+    url: '/git.png',
     u:"https://swag-app.vercel.app/"
   },
   {
@@ -76,7 +76,7 @@ export const socials = [
   },
   {
     name: 'facebook',
-    url: '/facebook.svg',
+    url: '/yt.png',
     u:"https://www.youtube.com/@swagdevelopersclub/featured?app=desktop"
   },
 ];

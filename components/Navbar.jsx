@@ -9,15 +9,19 @@ import Link from "next/link";
 const Navbar = () => {
   
   const [modelOpen,setModelOpen] = useState(false)
-  
+  console.log("render")
   
   return (
     <>
-  <motion.nav variants={navVariants} 
-  initial="hidden" 
-  whileInView="show"
+  <motion.nav 
+  initial={{ opacity: 0, scale: 1, y:-100 }}
+    animate={{ opacity: 1, scale: 1 ,y:0}}
+    transition={{ duration: 1 }}
+  // variants={navVariants} 
+  // initial="hidden" 
+  // whileInView="show"
   className={`${styles.xPaddings} py-8 relative`}
-  viewport={{once:true}}
+  viewport={{once:false}}
   >
   <div
     className="absolute inset-0 w-[50%] gradient-01"
@@ -44,7 +48,7 @@ const Navbar = () => {
   </h2>
   </Link>
   <motion.div
-    initial={{ opacity: 0, scale: 0.5, y:-100 }}
+    initial={{ opacity: 0, scale: 1, y:-100 }}
     animate={{ opacity: 1, scale: 1 ,y:0}}
     transition={{ duration: 0.5 }}
 className={`
@@ -63,11 +67,22 @@ className={`
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
+    <Link href="/Webverse"
+    className="text-green-500 font-medium p-[10px] px-5 cursor-pointer"
+    >
+    WebVerse
+    </Link>
+    </div>
+    <div
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
+   rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
+    >
     <Link href="/Events"
     className="text-white font-medium p-[10px] px-5 cursor-pointer"
     >
     Events
-    </Link></div>
+    </Link>
+    </div>
     <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2 
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}

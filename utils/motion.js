@@ -1,4 +1,4 @@
-export const navVariants = {
+export const  navVariants = {
   hidden: {
     opacity: 0,
     y: -50,

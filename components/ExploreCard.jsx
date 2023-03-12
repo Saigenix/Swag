@@ -20,13 +20,13 @@ const ExploreCard = ({id,imgUrl,title,index,active,handleClick}) => (
     {active !== id ? (
       <h3 
         className="font-semibold sm:text-[26px] text-[18px]
-        absolute z-10 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] text-red-600 drop-shadow-lg">
+        absolute z-10 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] text-red-600 drop-shadow-lg backdrop-blur-lg">
         {title}
       </h3>
     ):(
       <h3 
         className="mt-[24px] font-bold sm:text-[24px] text-[32px]
-        absolute z-10 text-red-500 shadow-2xl lg:bottom-[280px] bg-slate-600 rounded-md">
+        absolute z-10 text-red-500 shadow-2xl lg:bottom-[280px] rounded-md drop-shadow-lg backdrop-blur-lg">
         {title}
       </h3>
     )}
