@@ -43,7 +43,7 @@ const Events = () => {
               - What are the teams going to achieve?
               </li>
               <li className="p-3">
-              - Development of leadership qualities and teamwork along with project management skills that will act as a base for your future projects.
+              - Development of leadership qualities and teamwork along with project management skills<br/> that will act as a base for your future projects.
               </li>
               <li className="p-3">
               - Hands-on experience on designing, coding and publishing a website.
@@ -55,29 +55,31 @@ const Events = () => {
               - Top 3 teams will be given a chance to appear for the interview for direct recruitment in SWAG.
               </li>
               <li className="p-3">
-              - Teams will be awarded on the basis of how interactive and responsive their website is, and how effectively it fulfills the user’s expectations.
+              - Teams will be awarded on the basis of how interactive and responsive their website is,<br/> and how effectively it fulfills the user’s expectations.
               </li>
             </ul>
             <br/>
+            <div className="flex lg:flex-row flex-col p-4">
             <div
-            className="glassmorphism2 rounded-md flex justify-center flex-col align-middle m-5">
+            className="glassmorphism2 rounded-md flex justify-center flex-col items-center m-5 p-4">
               
           <span className="font-bold text-white my-2 self-center">
           Cash Prizes     
           </span>
-          <span className="font-bold mb-3 underline self-center text-secondary-white">
+          <span className="font-bold mb-3 underline self-center text-secondary-white text-center">
           The overall cash prize of RS.6,000
           </span>
             </div>
             <div
-            className="glassmorphism2 rounded-md flex justify-center flex-col align-middle m-5">
+            className="glassmorphism2 rounded-md flex justify-center flex-col align-middle m-5 p-4">
               
           <span className="font-bold text-white my-2 self-center">
           Certificate of Participation
           </span>
-          <span className="font-bold mb-3 underline self-center text-secondary-white">
-          every participant will get the certificate
+          <span className="font-bold mb-3 underline self-center text-secondary-white text-center">
+          participants will get the certificate
           </span>
+            </div>
             </div>
             <br/>
             <motion.p
@@ -94,8 +96,8 @@ const Events = () => {
                 - 📃 Fill up the Form
                 </span>
                 <span className="text-secondary-white text-sm">
-                Please fill up the Google form attached below with your accurate and unique information before the 
-                registration deadline on February 5th at 11:59 PM. 
+                Please fill up the Google form attached below with your accurate and unique information <br/>
+                before the registration deadline on February 5th at 11:59 PM.<br/>
                 Kindly make sure to pay the required fee payment for the competition as well.
                 </span>
               </li>
@@ -104,8 +106,10 @@ const Events = () => {
                 - ✅ Verifying Details
                 </span>
                 <span className="text-secondary-white text-sm">
-                Our SWAG team will conduct a thorough verification of the information provided by you. 
-                If any issues are encountered during the verification process, we will contact the respective team for resolution and necessary correction. If everything is in order, 
+                Our SWAG team will conduct a thorough verification of the information provided by you.<br/>
+                If any issues are encountered during the verification process,<br/>
+                 we will contact the respective team for resolution and necessary correction. <br/>
+                 If everything is in order, 
                 you can expect to receive a confirmation email within 1-2 days.
                 </span>
               </li>
@@ -115,8 +119,8 @@ const Events = () => {
                 </span>
                 <span className="text-secondary-white text-sm">
                 Upon receiving the confirmation email, please visit the SWAG Lab at CSE 
-                Department where you will be guided through the process of building a website 
-                and the rules and regulations to be followed. You will be supposed to complete the website 
+                Department <br/>where you will be guided through the process of building a website 
+                and the rules and regulations to be followed.<br/> You will be supposed to complete the website 
                 within the given time frame for getting qualified in the competition.
                 </span>
               </li>
@@ -143,11 +147,11 @@ const Events = () => {
             </div>
             <br/>
             <TitleText title={<>📄 Register Now!</>} textStyles="text-center text-[30px] text-red-500" /> 
-            <div className="glassmorphism2 p-4 m-4 flex flex-col">
+            <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
             <a href="https://forms.gle/aGsxEreQSNFpYp8E7" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
-            Open in New Tab
+            Register Now
           </a>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3sGu5BvuqGExbqhaMNsSAUISxDi-5vV8zk3WAClfIbAvxg/viewform?embedded=true" className="rounded-md self-center p-2 m-2 shadow-md" width="300" height="1000" frameborder="1" marginheight="0" marginwidth="0">Loading…</iframe>
+            {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3sGu5BvuqGExbqhaMNsSAUISxDi-5vV8zk3WAClfIbAvxg/viewform?embedded=true" className="rounded-md self-center p-2 m-2 shadow-md" width="900" height="1000" frameborder="1" marginheight="0" marginwidth="0">Loading…</iframe> */}
             </div>
         </div>
       </section>
