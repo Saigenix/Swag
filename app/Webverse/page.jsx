@@ -33,7 +33,7 @@ const Events = () => {
           <motion.p
               // variants={fadeIn("up", "tween", 0.2, 1)}
               className="mt-[8px] font-normal sm:text-[32px] text-[20px] 
-      text-center text-secondary-white"
+       text-secondary-white"
             >
               <span className="font-extrabold text-red-200">Improve your potential to develop website in WebVerse after participating</span>
  
