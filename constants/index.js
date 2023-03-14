@@ -2,17 +2,17 @@ export const data = [
   {
     id: 'web',
     imgUrl: '/web.jpg',
-    title: 'Go To Roadmap',
+    title: 'Go To Roadmap of web',
   },
   {
     id: 'game',
     imgUrl: '/game.jpg',
-    title: 'Go To Roadmap',
+    title: 'Go To Roadmap of game',
   },
   {
     id: 'app',
     imgUrl: '/app.jpg',
-    title: 'Go To Roadmap',
+    title: 'Go To Roadmap of app',
   }
 ];
 
