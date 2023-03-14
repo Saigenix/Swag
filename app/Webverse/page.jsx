@@ -143,6 +143,12 @@ const Events = () => {
             </div>
             <br/>
             <TitleText title={<>📄 Register Now!</>} textStyles="text-center text-[30px] text-red-500" /> 
+            <div className="glassmorphism2 p-4 m-4 flex flex-col">
+            <a href="https://forms.gle/aGsxEreQSNFpYp8E7" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
+            Open in New Tab
+          </a>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3sGu5BvuqGExbqhaMNsSAUISxDi-5vV8zk3WAClfIbAvxg/viewform?embedded=true" className="rounded-md self-center p-2 m-2 shadow-md" width="300" height="1000" frameborder="1" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
         </div>
       </section>
   );
