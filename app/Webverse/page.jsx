@@ -33,7 +33,7 @@ const Events = () => {
           <motion.p
               // variants={fadeIn("up", "tween", 0.2, 1)}
               className="mt-[8px] font-normal sm:text-[32px] text-[20px] 
-      text-center text-secondary-white"
+      text-left text-secondary-white"
             >
               <span className="font-extrabold text-red-200">Improve your potential to develop website in WebVerse after participating</span>
  
@@ -67,7 +67,7 @@ const Events = () => {
           Cash Prizes     
           </span>
           <span className="font-bold mb-3 underline self-center text-secondary-white text-center">
-          The overall cash prize of RS.6,000
+          The overall prize pool of RS.6,000
           </span>
             </div>
             <div
@@ -83,17 +83,17 @@ const Events = () => {
             </div>
             <br/>
             <motion.p
-              // variants={fadeIn("up", "tween", 0.2, 1)}
+              //variants={fadeIn("up", "tween", 0.2, 1)}
               className="mt-[8px] font-normal sm:text-[32px] text-[20px] 
-      text-center text-secondary-white"
+      text-left text-secondary-white"
             >
-              <span className="font-extrabold text-red-200">Steps to register and be a part of WEBVERSE</span>
+              <span className="font-extrabold text-red-200 ">Steps to register and be a part of WEBVERSE</span>
  
             </motion.p>
             <ul className="text-white mx-10 my-5">
               <li className="p-5 text-2xl font-bold flex flex-col" >
                 <span>
-                - 📃 Fill up the Form
+                📃 Fill up the Form
                 </span>
                 <span className="text-secondary-white text-sm">
                 Please fill up the Google form attached below with your accurate and unique information <br/>
@@ -103,7 +103,7 @@ const Events = () => {
               </li>
               <li className="p-5 text-2xl font-bold flex flex-col" >
                 <span>
-                - ✅ Verifying Details
+                ✅ Verifying Details
                 </span>
                 <span className="text-secondary-white text-sm">
                 Our SWAG team will conduct a thorough verification of the information provided by you.<br/>
@@ -115,7 +115,7 @@ const Events = () => {
               </li>
               <li className="p-5 text-2xl font-bold flex flex-col" >
                 <span>
-                - 🧑‍💻 Code and Develop the Website within the given time frame
+                🧑‍💻 Code and Develop the Website within the given time frame
                 </span>
                 <span className="text-secondary-white text-sm">
                 Upon receiving the confirmation email, please visit the SWAG Lab at CSE 
@@ -132,12 +132,12 @@ const Events = () => {
             // variants={fadeIn("up", "tween", 0.3, 1)}
             src="/e2.png"
             alt="webverse"
-            className="max-h-[500px] max-w-[320px] p-5 m-5 rounded-md drop-shadow-lg object-contain self-center"
+            className="max-h-[200px] max-w-[320px] p-5 m-5 rounded-md drop-shadow-lg object-contain self-center"
           />
           <span className="font-bold text-2xl text-white my-2 self-center">
           WebVerse     
           </span>
-          <span className="font-bold mb-3 self-center text-secondary-white p-4 w-[80%] opacity-80">
+          <span className="font-bold mb-3 text-center self-center text-secondary-white p-4 w-[80%] opacity-80">
           Every team will be given a specific theme and a limited time duration to complete the website. All the teams are then supposed to build a website based on the provided theme in the given time. The best website will win the competition. 
           It will be judged on factors like interactiveness, loading time, appearance, input validation, etc.
           </span>
@@ -148,6 +148,9 @@ const Events = () => {
             <br/>
             <TitleText title={<>📄 Register Now!</>} textStyles="text-center text-[30px] text-red-500" /> 
             <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
+            <span className="font-bold mb-3 text-center self-center text-secondary-white p-4 w-[80%] opacity-80">
+            Click below to registor
+            </span>
             <a href="https://forms.gle/aGsxEreQSNFpYp8E7" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
             Register Now
           </a>
