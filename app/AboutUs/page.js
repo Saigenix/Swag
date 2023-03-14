@@ -174,6 +174,22 @@ const AboutUs = () => {
           Media Coordinator
           </span>
             </div>
+            <div
+            className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
+              <motion.img
+            // variants={fadeIn("up", "tween", 0.3, 1)}
+            src="/a6.jpg"
+            alt="arrow down"
+            className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+          />
+          <span className="font-bold text-white my-2 underline self-center">
+          Kunal Bandale      
+          </span>
+          <br/>
+          <span className="font-bold mb-3 underline self-center text-secondary-white">
+          Magzine Coordinator
+          </span>
+            </div>
           </div>
           <motion.p
               // variants={fadeIn("up", "tween", 0.2, 1)}

@@ -46,7 +46,7 @@ className={`lg:ml-[85%] ml-[65%] mt-[-40px]
     <Link href="/AboutUs"
     className="text-white font-medium p-[10px] px-5 cursor-pointer"
     >
-    About
+    AboutUs
     </Link>
     </div>
     <div

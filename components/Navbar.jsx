@@ -92,7 +92,7 @@ className={`
     <Link href="/AboutUs"
     className="text-white font-medium p-[10px] px-5 cursor-pointer"
     >
-    About
+    AboutUs
     </Link>
     </div>
     <div
