@@ -97,7 +97,7 @@ const Events = () => {
                 </span>
                 <span className="text-secondary-white text-sm">
                 Please fill up the Google form attached below with your accurate and unique information <br/>
-                before the registration deadline on February 5th at 11:59 PM.<br/>
+                before the registration deadline on 8th April at 11:59 PM.<br/>
                 Kindly make sure to pay the required fee payment for the competition as well.
                 </span>
               </li>
