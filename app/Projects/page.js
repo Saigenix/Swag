@@ -11,6 +11,9 @@ const Projects = () => {
         <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
           <TypingText title="| Projects" textStyles="text-center" />
           
+    
+
+          
         </div>
       </section>
   );
