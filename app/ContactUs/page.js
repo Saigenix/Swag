@@ -11,7 +11,13 @@ const ContactUs = () => {
       <section className={`${styles.paddings} relative z-10`}>
         <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
           <TypingText title="| Contact us" textStyles="text-center" />
-          <TitleText title={<>Coming Soon!</>} textStyles="text-center" />
+          <div>
+          <span className=" font-bold text-white">✉️ Mail: </span>
+          <a href="mailto:swag@sggs.ac.in?subject=contact%20Us" className=" underline text-secondary-white">
+          swag@sggs.ac.in
+          </a>
+          </div>
+
         </div>
       </section>
       </>
