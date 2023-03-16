@@ -60,7 +60,7 @@ const Events = () => {
             <br/>
             <div className="flex lg:flex-row flex-col p-4">
             <div
-            className="glassmorphism2 rounded-md flex justify-center flex-col items-center m-5 p-4">
+            className="glassmorphism2 rounded-md flex justify-center flex-col items-center m-5 p-4 hover:shadow-2xl hover:scale-[105%]">
               
           <span className="font-bold text-white my-2 self-center">
           Cash Prizes     
@@ -70,7 +70,7 @@ const Events = () => {
           </span>
             </div>
             <div
-            className="glassmorphism2 rounded-md flex justify-center flex-col align-middle m-5 p-4">
+            className="glassmorphism2 rounded-md flex justify-center flex-col align-middle m-5 p-4 hover:shadow-2xl hover:scale-[105%]">
               
           <span className="font-bold text-white my-2 self-center">
           Certificate of Participation
