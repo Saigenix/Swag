@@ -147,8 +147,8 @@ const Events = () => {
             <br/>
             <TitleText title={<>📄 Register Now!</>} textStyles="text-center text-[30px] text-red-500" /> 
             <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
-            <span className="font-bold mb-3 text-center self-center text-secondary-white p-4 w-[80%] opacity-80">
-            Click below to registor
+            <span className="font-bold m-1 text-center self-center text-secondary-white p-2 w-[80%] opacity-80">
+            Click below to register
             </span>
             <a href="https://forms.gle/aGsxEreQSNFpYp8E7" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
             Register Now
