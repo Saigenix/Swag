@@ -66,7 +66,7 @@ const Events = () => {
           Cash Prizes     
           </span>
           <span className="font-bold mb-3 underline self-center text-secondary-white text-center">
-          The overall prize pool of RS.6,000
+          The overall prize pool of RS.10,000
           </span>
             </div>
             <div
@@ -152,6 +152,15 @@ const Events = () => {
             </span>
             <a href="https://forms.gle/aGsxEreQSNFpYp8E7" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
             Register Now
+          </a>
+          </div>
+          <TitleText title={<>📺 Watch Workshop!</>} textStyles="text-center text-[30px] text-red-500" /> 
+            <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
+            <span className="font-bold m-1 text-center self-center text-secondary-white p-2 w-[80%] opacity-80">
+            Click below to watch live
+            </span>
+            <a href="https://www.youtube.com/live/bE9WRhUjwMk?feature=share" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
+            Watch Now
           </a>
             {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3sGu5BvuqGExbqhaMNsSAUISxDi-5vV8zk3WAClfIbAvxg/viewform?embedded=true" className="rounded-md self-center p-2 m-2 shadow-md" width="900" height="1000" frameborder="1" marginheight="0" marginwidth="0">Loading…</iframe> */}
             </div>
