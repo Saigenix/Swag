@@ -13,25 +13,25 @@ className={`lg:ml-[85%] ml-[65%] mt-[-40px]
 >
 {/* options={["Projects","Events","About","ContactUs"]} */}
 <div
-    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
     >
-    
-    <Link href="/Webverse" className="text-white font-medium p-[10px] px-5 cursor-pointer" >
-    WebVerse
+
+    <Link href="/Hackfusion" className="text-white font-medium p-[10px] px-5 cursor-pointer" >
+    HackFusion
     </Link>
     </div>
     <div
-    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
     >
-    
+
     <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer" >
     Projects
     </Link>
     </div>
     <div
-    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
     <Link href="/Events"
@@ -40,7 +40,7 @@ className={`lg:ml-[85%] ml-[65%] mt-[-40px]
     Events
     </Link></div>
     <div
-    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
     <Link href="/AboutUs"
@@ -50,7 +50,7 @@ className={`lg:ml-[85%] ml-[65%] mt-[-40px]
     </Link>
     </div>
     <div
-    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1 
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
     <Link href="/ContactUs"
