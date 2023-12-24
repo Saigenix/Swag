@@ -16,7 +16,7 @@ className={`lg:ml-[85%] ml-[65%] mt-[-40px]
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] mb-1
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
     >
-
+    <div className=" absolute rounded-full bg-red-600 via-red-800 h-4 w-4 top-[10px] left-1 "/>
     <Link href="/Hackfusion" className="text-white font-medium p-[10px] px-5 cursor-pointer" >
     HackFusion
     </Link>
