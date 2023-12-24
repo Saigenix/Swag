@@ -7,18 +7,18 @@ import { useState } from "react";
 import Model from "./Model";
 import Link from "next/link";
 const Navbar = () => {
-  
+
   const [modelOpen,setModelOpen] = useState(false)
   console.log("render")
-  
+
   return (
     <>
-  <motion.nav 
+  <motion.nav
   initial={{ opacity: 0, scale: 1, y:-100 }}
     animate={{ opacity: 1, scale: 1 ,y:0}}
     transition={{ duration: 1 }}
-  // variants={navVariants} 
-  // initial="hidden" 
+  // variants={navVariants}
+  // initial="hidden"
   // whileInView="show"
   className={`${styles.xPaddings} py-8 relative`}
   viewport={{once:false}}
@@ -28,7 +28,7 @@ const Navbar = () => {
   />
   <div className={`${styles.innerWidth} mx-auto flex justify-between
   gap-8`}>
-  
+
   <img
     src="./sggs.svg"
     alt="search"
@@ -55,15 +55,15 @@ className={`
    rounded-[10px] lg:flex flex-row z-30 p-2 hidden items-center`}
 >
 {/* options={["Projects","Events","About","ContactUs"]} */}
-   
+
 <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
-    <Link href="/Webverse"
+    <Link href="/Hackfusion"
     className="text-green-500 font-medium p-[10px] px-5 cursor-pointer"
     >
-    WebVerse
+    HackFusion
     </Link>
     </div>
     <div
@@ -74,7 +74,7 @@ className={`
     Projects
     </Link>
     </div>
-   
+
     <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
@@ -86,7 +86,7 @@ className={`
     </Link>
     </div>
     <div
-    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2 
+    className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
     <Link href="/AboutUs"
