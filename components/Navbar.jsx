@@ -55,7 +55,7 @@ className={`
    rounded-[10px] lg:flex flex-row z-30 p-2 hidden items-center`}
 >
 {/* options={["Projects","Events","About","ContactUs"]} */}
-<div className=" absolute rounded-full bg-red-600 via-red-800 h-4 w-4 top-[45px] "/>
+<div className=" absolute bg-red-600 h-6 w-12 top-[35px] rounded-xl px-2 text-white opacity-80">New</div>
 <div
     className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
