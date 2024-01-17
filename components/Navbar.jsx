@@ -30,7 +30,7 @@ const Navbar = () => {
   gap-8`}>
 
   <img
-    src="./sggs.svg"
+    src="https://www.swag.org.in/sggs.svg"
     alt="search"
     className=" sm:w-[75px] w-[60px] sm:h-[75px] h-[60px] object-contain hover:cursor-pointer fill-white shadow"
   />
@@ -107,7 +107,7 @@ className={`
     </div>
 </motion.div>
   <img
-    src="./menu.svg"
+    src="https://www.swag.org.in/menu.svg"
     alt="menu"
     className="sm:w-[40px] w-[30px] sm:h-[40px] h-[30px] object-contain hover:cursor-pointer mt-[20px] lg:hidden"
     onClick={() => setModelOpen(!modelOpen) }
