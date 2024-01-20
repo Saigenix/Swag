@@ -110,7 +110,7 @@ const handleSubmit = async (form) => {
 
           <div className="formContent flex flex-wrap mx-3 mb-6 p-5">
 
-          <p className='w-full px-3 mb-6 '> <span className='bg-white text-black font-semibold py-2 px-4 border border-gray-400 rounded shadow hover:bg-gray-100'><a href="/HackFusionRuleBook.pdf">Read Rulebook Here </a></span></p>
+          <p className='w-full px-3 mb-6 '> <span className='bg-white text-black font-semibold py-2 px-4 border border-gray-400 rounded shadow hover:bg-gray-100'><a href="HackFusionRuleBook.pdf">Read Rulebook Here </a></span></p>
 
         <div style={{borderTop: "3px solid white", width: "100%", marginBottom: "8px"}}></div>
 
