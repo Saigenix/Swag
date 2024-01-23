@@ -119,7 +119,7 @@ const AboutUs = () => {
                 className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-                Sushil Boybar
+                Sushil Bhoybar
               </span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
