@@ -235,7 +235,7 @@ const handleSubmit = async (form) => {
   <span className='text-white mr-2'>I have read and agreed to all the terms and conditions</span>
   <input type='checkbox' required onChange={async (e) => {
     if(e.target.checked) {
-      alert("1) Payment is non refundable.\n2) Minimum one member should be a girl.\n3) 4 Members are must for every team.\n4) Students from Maharashtra must need to come offline for hackathon, meanwhile other students can participate online.")
+      alert("1) Payment is non refundable.\n2) 4 Members are must for every team.\n3) Students from Maharashtra must need to come offline for hackathon, meanwhile other students can participate online.")
     }
   }} className='mx-1 bg-pink-100 rounded px-2'/>
 </div>
