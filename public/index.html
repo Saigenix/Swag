@@ -54,7 +54,7 @@
                     <div class="ready">
                       <img src="images/partners/delighteck_horizontal_white1.png" height="90px" style="margin-bottom: 30px;">
                     </div>
-                    <a href="https://www.swag.org.in/Hackfusion/form" class="btn btn-hero btn-rounded"  target="_blank">Register Now</a>
+                    <a onclick="showPopup()" class="btn btn-hero btn-rounded"  target="_blank">Register Now</a>
 
                </div>
             </div>
@@ -492,7 +492,7 @@
             <li>Career Advancement</li>
             <li>Personal Growth</li>
           </ul>
-          <a href="https://www.swag.org.in/Hackfusion/form" class="btn btn-secondary btn-rounded mt-3 mb-5" target="_blank">Register now</a>
+          <a onclick="showPopup()" class="btn btn-secondary btn-rounded mt-3 mb-5" target="_blank">Register now</a>
         </div>
       </div>
     </div>
@@ -748,14 +748,14 @@
       });
 
       function showPopup() {
-        var today = new Date();
-        var registrationDate = new Date("2024-01-15");
+       // var today = new Date();
+       // var registrationDate = new Date("2024-01-15");
 
-        if (today < registrationDate) {
-          window.alert("Registration will starts on January 15, 2024");
-        } else {
-          window.alert("Registration is now open!");
-        }
+       // if (today < registrationDate) {
+       //   window.alert("Registration will starts on January 15, 2024");
+       // } else {
+          window.alert("Registration is now close!");
+       // }
       }
 
       function openSponsorFormNewTab() {
